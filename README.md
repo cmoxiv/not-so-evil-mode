@@ -6,7 +6,5 @@ A minor mode for Emacs that only makes digits default to universal arguments but
 ``` emacs-lisp
 (use-package not-so-evil-mode
     :straight (:type git :host github :repo "cmoxiv/not-so-evil-mode")
-    :hook (display-line-numbers-mode . not-so-evil-mode)
-    :config
-    (my/modeline-add-left '(not-so-evil-mode not-so-evil-mode) t))
+    :hook (display-line-numbers-mode . not-so-evil-mode))
 ```
